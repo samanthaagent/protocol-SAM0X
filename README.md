@@ -1,3 +1,4 @@
+
 # Samantha – The Email Agent, Powered by #sam0x Token  
 
 Welcome to the official codebase for **Samantha**, your AI-powered email assistant!  
@@ -47,60 +48,70 @@ Samantha is more than an email assistant—it’s your productivity partner. Whe
    ```bash  
    git clone https://github.com/yourusername/samantha-email-agent.git  
    cd samantha-email-agent  
+   ```  
 
-	2.	Install the dependencies:
-	•	Run the following command to install all necessary libraries:
+2. **Install the dependencies**:  
+   - Run the following command to install all necessary libraries:  
+     ```bash  
+     pip install -r requirements.txt  
+     ```  
+   - This installs required libraries such as TensorFlow, OpenAI API, Flask, and more, as listed in the `requirements.txt` file.  
+   - Ensure your environment is set up correctly before proceeding.  
 
-pip install -r requirements.txt  
+3. **Set up your API keys**:  
+   - Create a `.env` file in the root directory of the project.  
+   - Add your API credentials in the following format:  
+     ```plaintext  
+     EMAIL_API_KEY=your-email-api-key  
+     OPENAI_API_KEY=your-openai-api-key  
+     DATABASE_URL=your-database-url  
+     ```  
+   - These credentials enable Samantha to access email APIs, leverage AI capabilities, and securely store data.  
 
+4. **Run the program**:  
+   - Start Samantha by running:  
+     ```bash  
+     python main.py  
+     ```  
+   - Once the server is running, Samantha will be available via the local or web-based interface.  
+   - Example output:  
+     ```
+     Server is running on http://localhost:5000
+     Samantha is ready to organize your inbox!
+     ```  
 
-	•	This installs required libraries such as TensorFlow, OpenAI API, Flask, and more, as listed in the requirements.txt file.
-	•	Ensure your environment is set up correctly before proceeding.
+---
 
-	3.	Set up your API keys:
-	•	Create a .env file in the root directory of the project.
-	•	Add your API credentials in the following format:
+## 🌟 How to Use Samantha  
 
-EMAIL_API_KEY=your-email-api-key  
-OPENAI_API_KEY=your-openai-api-key  
-DATABASE_URL=your-database-url  
+1. **Organize Your Inbox**: Samantha categorizes emails automatically into folders based on urgency and topic.  
+2. **Quick Replies**: Use Samantha's AI to generate smart replies with just one click.  
+3. **Custom Workflows**: Configure Samantha to suit your specific workflow, from auto-responses to task reminders.  
+4. **Token-Powered Features**: Use the **#sam0x token** for access to advanced tools and analytics.  
 
+---
 
-	•	These credentials enable Samantha to access email APIs, leverage AI capabilities, and securely store data.
+## 🤝 Contribute  
 
-	4.	Run the program:
-	•	Start Samantha by running:
+We’re building Samantha as an open-source project and welcome contributions from developers, designers, and enthusiasts.  
+- Report bugs or suggest features via [Issues](https://github.com/samanthaagent/protocol-SAM0X/issues).  
+- Submit pull requests with your improvements or new features.  
 
-python main.py  
+---
 
+## 📜 License  
 
-	•	Once the server is running, Samantha will be available via the local or web-based interface.
-	•	Example output:
+This project is licensed under the [MIT License](LICENSE).  
 
-Server is running on http://localhost:5000
-Samantha is ready to organize your inbox!
+---
 
-🌟 How to Use Samantha
-	1.	Organize Your Inbox: Samantha categorizes emails automatically into folders based on urgency and topic.
-	2.	Quick Replies: Use Samantha’s AI to generate smart replies with just one click.
-	3.	Custom Workflows: Configure Samantha to suit your specific workflow, from auto-responses to task reminders.
-	4.	Token-Powered Features: Use the #sam0x token for access to advanced tools and analytics.
+## 🌐 Connect  
 
-🤝 Contribute
+Stay updated with Samantha’s development and join the community!  
+- Follow us on [Twitter](https://twitter.com/Samanth59390439).  
+- Join discussions on [Discord](https://discord.gg/samantha-email-agent).  
+- Visit our official site at [samantha-agent.com](https://samanthaagent.com).  
 
-We’re building Samantha as an open-source project and welcome contributions from developers, designers, and enthusiasts.
-	•	Report bugs or suggest features via Issues.
-	•	Submit pull requests with your improvements or new features.
+---
 
-📜 License
-
-This project is licensed under the MIT License.
-
-🌐 Connect
-
-Stay updated with Samantha’s development and join the community!
-	•	Follow us on Twitter.
-	•	Join discussions on Discord.
-	•	Visit our official site at samantha-agent.com.
-
-Organizing, prioritizing, and responding to your emails—one inbox at a time.
+_Organizing, prioritizing, and responding to your emails—one inbox at a time._
